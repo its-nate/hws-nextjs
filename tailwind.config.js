@@ -10,6 +10,15 @@ module.exports = {
       'dark-green': '#1b4a55',
       'light-green': '#81c3c9',
       'grey': '#a6a6a6',
+      'white': '#ffffff',
+    },
+    letterSpacing: {
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.4em',
     },
     extend: {
       backgroundImage: {
