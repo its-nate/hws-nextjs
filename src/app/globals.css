@@ -2,32 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+/*
+==================================
+Color Palette:
+Dark Green
+#1b4a55
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+Light Green
+#81c3c9
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+Grey
+#a6a6a6
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+White
+#ffffff
+
+Fonts:
+Headings
+Montserrat
+
+Subheadings
+Open Sans
+
+Body
+Montserrat Light
+
+==================================
+*/
